@@ -1,0 +1,8 @@
+---
+applications:
+- name: questive-org
+  instances: 2
+  routes:
+  - route: questive-org.cfapps.io
+  services:
+  - my-mlab
